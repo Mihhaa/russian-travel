@@ -1,0 +1,10 @@
+.intro__list_elem {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
