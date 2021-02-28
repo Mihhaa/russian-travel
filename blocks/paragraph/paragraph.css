@@ -1,0 +1,33 @@
+.paragraph {
+  max-width: 484px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .paragraph {
+    max-width: 456px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .paragraph {
+    margin-left: 0px;
+    margin-right: 8px;
+    font-size: 16px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .paragraph {
+    margin-left: 16px;
+  }
+}
