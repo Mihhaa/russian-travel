@@ -1,0 +1,30 @@
+.intro {
+  display: grid;
+  grid-template-columns: 984px;
+  grid-template-rows: 54px;
+  justify-content: center;
+  margin-top: 92px;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    grid-template-columns: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    grid-template-columns: 720px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    grid-template-columns: 288px;
+    grid-template-rows: 70px;
+    margin-top: 64px;
+  }
+}
+
+
